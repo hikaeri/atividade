@@ -1,0 +1,22 @@
+Algoritmo "dob e ter"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael 
+// Descrição   : Computa o valor ao dobro e divido pela metade do número inserido
+// Autor(a)    : Miguelb Tsuyoshi
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis 
+val:real
+dobro:real
+terco:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Insira um valor: ")
+leia(val)
+dobro<-(val*2)
+escreval(dobro," ", "É o dobro de seu valor total")
+terco<-(val/3)
+escreval(terco, " " , "É o terço de seu valor total")
+
+
+Fimalgoritmo
