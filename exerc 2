@@ -1,0 +1,18 @@
+Algoritmo "ant e suc"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael 
+// Descrição   : carrega número anterior e posterior ao inserido
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis 
+valor:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Insira um valor: ")
+leia(valor)
+escreval(valor-1, " ", "é o antecessor de seu valor")
+escreval(valor+1, " ", "é o sucessor de seu valor")
+
+Fimalgoritmo
