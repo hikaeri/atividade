@@ -1,0 +1,23 @@
+Algoritmo "val equivalentes"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael
+// Descrição   : Computa os metros e calcula os diversos valores equivalentes ao número
+// Autor(a)    : Miguel
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis 
+met:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite sua distância em Metros: ")
+leia(met)
+escreval(met, " ", "Metros equivale a: ")
+escreval(met/10, " ", "dam")
+escreval(met/100, " ", "hm")
+escreval(met/1000, " ", "km")
+escreval(met*10, " ", "dm")
+escreval(met*100, " ", "cm")
+escreval(met*1000, " ", "mm")
+
+Fimalgoritmo
