@@ -1,0 +1,19 @@
+Algoritmo "salario"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael
+// Descrição   : Carrega o valor e nome da pessoa inserida
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis 
+pessoa1:caractere
+salario:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Insira seu nome: ")
+leia(pessoa1)
+escreva("Insira seu salário em Setembro: ")
+leia(salario)
+escreva(pessoa1, " ", "recebeu", salario, " ", "em Setembro")
+
+Fimalgoritmo
